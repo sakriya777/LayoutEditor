@@ -42,6 +42,6 @@ public class MainActivity extends AppCompatActivity {
         mCount = 0;
         mShowCount.setText(Integer.toString(mCount));
         if(mCount==0){
-        view.setBackgroundColor(Color.GREEN);}
+        view.setBackgroundColor(Color.GRAY);}
     }
 }

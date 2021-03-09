@@ -13,7 +13,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.google.android.material.button.MaterialButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_toast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,12 +24,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/design_default_color_on_primary"
+        android:background="@color/purple_500"
         android:onClick="show_toast"
         android:text="@string/toast"
         android:textColor="@android:color/white" />
 
-    <com.google.android.material.button.MaterialButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/zero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,13 +39,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="@color/design_default_color_on_primary"
+        android:background="#EE00C6"
         android:onClick="zero"
         android:text="@string/zero"
         android:textColor="@android:color/white" />
 
 
-    <com.google.android.material.button.MaterialButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/design_default_color_on_primary"
+        android:background="@color/purple_500"
         android:onClick="countUp"
         android:text="@string/count"
         android:textColor="@android:color/white" />
