@@ -5,13 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import static android.graphics.Color.RED;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView mShowCount;
     private int mCount = 0;
+    private Button zerobutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,17 +23,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mShowCount = (TextView) findViewById(R.id.show_count);
-
+        zerobutton = (Button)findViewById(R.id.zero);
     }
 
     public void countUp(View view) {
         ++mCount;
+        zerobutton.setBackgroundColor(Color.MAGENTA);
         if (mShowCount != null){
             mShowCount.setText(Integer.toString(mCount));}
         if (mCount % 2 == 0){
             view.setBackgroundColor(Color.GREEN);}
         else {
-            view.setBackgroundColor(Color.RED);}
+            view.setBackgroundColor(RED);}
     }
 
     public void show_toast(View view) {
