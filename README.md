@@ -1,4 +1,4 @@
-<h5>"Hello Toast"</h5>
+<h5>"Layout Editor"</h5>
 <h6>Potrait View</h6>
 <img src="" width="350" title="potrait view">
 <h6>Landscape View</h6>
