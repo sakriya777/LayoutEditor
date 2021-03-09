@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Layout Editor</string>
+    <string name="app_name">Hello Constrains</string>
     <string name="toast">Toast</string>
     <string name="count">Count</string>
     <string name="_0">0</string>
     <string name="toast_message">Hello Toast!!!</string>
+    <string name="zero">zero</string>
 </resources>
